@@ -1,0 +1,130 @@
+h1
+{
+	color: white;
+	text-align: center;
+	font-family: Fantasy;
+	font-size: 30pt;
+}
+/*End of h1 rule*/
+
+p
+{
+	text-align: center;
+	font-size: 12pt;
+	line-height: 14pt;
+}
+/*End of p rule*/
+
+p
+{
+	color: white;
+	font-family: "Berlin Sans FB";
+}
+/*End of p rule*/
+
+body
+{
+	background-image: url("images/Theatre.jpg");
+	background-size: cover;
+}
+/*End of body rule*/
+
+.center
+{
+	display: block;
+	margin-left:auto;
+	margin-right: auto;
+}
+/*End of .center rule*/
+
+h2,h3,h4,h5,h6
+{
+	color: white;
+	font-family: "Century Gothic";
+	text-align: center;
+}
+/*End of h2,h3,h4,h5,h6 rule*/
+
+ul
+{
+	color: white;
+	font-family: "Century Gothic";
+	font-weight: bold;
+}
+/*End of ul rule*/
+
+.column 
+{
+  float: left;
+  width: 30%;
+  padding: 5px;
+}
+/* Three image containers (use 25% for four, and 50% for two, etc) */
+/*End of .column rule*/
+
+.row::after 
+{
+  content: "";
+  clear: both;
+  display: table;
+}
+/*End of .row:after rule*/
+
+table
+{
+	color: white;
+	font-family: "Berlin Sans FB";
+}
+/*End of table rule*/
+
+/*Beginning of Navigation Bar code*/
+u.center
+{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+/*End of u.center rule*/
+
+ul 
+{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+/*End of ul rule*/
+
+li 
+{
+  float: left;
+}
+/*End of li rule*/
+
+li a 
+{
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+/*End of li a rule*/
+
+li a:hover:not(.active)
+{
+  background-color: #111;
+}
+/*End of li a:hover:not(.active) rule*/
+
+.active
+{
+  background-color: #4CAF50;
+}
+/*End of .active rule*/
+
+/* End code for navigation bar*/

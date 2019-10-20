@@ -1,0 +1,102 @@
+
+h1
+{
+	color: white;
+	text-align: center;
+	font-family: "ArcadeClassic";
+	font-size: 60pt;
+}
+/*End of h1 rule*/
+
+h2
+{
+	color: black;
+	text-align: center;
+	font-family: "ArcadeClassic";
+	font-size: 60pt;
+}
+/*End of h2 rule*/
+
+p
+{
+	color: white;
+	text-align: center;
+	font-family:"Berlin Sans FB";
+	font-size: 16pt;
+}
+/*End of p rule*/
+
+
+body
+{
+	background-image: url("images/Backdrop.jpg");
+	background-size: cover;
+}
+/*End of body rule*/
+
+ul
+{
+	color:white;
+	font-family: "Century Gothic";
+	font-weight: bold;
+	margin: 4%;
+	padding: 3%;
+}
+/*End of ul rule*/
+
+h6
+{
+	color:white;
+}
+
+/*Beginning of Navigation Bar code*/
+u.center
+{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+/*End of u.center rule*/
+
+ul 
+{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+/*End of ul rule*/
+
+li 
+{
+  float: left;
+}
+/*End of li rule*/
+
+li a 
+{
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+/*End of li a rule*/
+
+li a:hover:not(.active)
+{
+  background-color: #111;
+}
+/*End of li a:hover:not(.active) rule*/
+
+.active
+{
+  background-color: #4CAF50;
+}
+/*End of .active rule*/
+
+/* End code for navigation bar*/
